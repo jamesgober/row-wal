@@ -1,0 +1,58 @@
+﻿[package]
+name = "row-wal"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.75"
+readme = "README.md"
+license = "Apache-2.0 OR MIT"
+
+authors = [
+    "James Gober <me@jamesgober.com>"
+]
+
+description = "Row-format write-ahead log primitive for Rust databases. Group commit, fsync coordination, sharded writers, crash recovery, replay. Backend-agnostic durability layer for traditional row-oriented storage engines. Conventional ARIES-style semantics."
+
+keywords = [
+    "wal",
+    "write-ahead-log",
+    "database",
+    "durability",
+    "rust"
+]
+
+categories = [
+    "database-implementations",
+    "filesystem"
+]
+
+documentation = "https://docs.rs/row-wal"
+repository    = "https://github.com/jamesgober/row-wal"
+homepage      = "https://github.com/jamesgober/row-wal"
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
+[lib]
+name = "row_wal"
+path = "src/lib.rs"
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
+
+[dev-dependencies]
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+strip = "symbols"
+
+[profile.bench]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+debug = true
