@@ -31,7 +31,7 @@ Skill areas in scope:
 - [ ] Error type defined
 - [ ] First end-to-end smoke test passing
 - [ ] CHANGELOG updated
-- [ ] `.dev/release/v0.2.0.md` written
+- [ ] `docs/release/v0.2.0.md` written
 
 ---
 
@@ -44,7 +44,7 @@ Skill areas in scope:
 - [ ] Documentation drafted
 - [ ] No `unwrap` / `expect` outside of tests
 - [ ] CHANGELOG updated
-- [ ] `.dev/release/v0.5.0.md` written
+- [ ] `docs/release/v0.5.0.md` written
 
 ---
 
@@ -101,7 +101,7 @@ Feature freeze. Quality focus.
 - [ ] `cargo doc` clean with `RUSTDOCFLAGS=-D warnings`
 
 ### Output
-- [ ] `.dev/release/v0.9.0.md` written
+- [ ] `docs/release/v0.9.0.md` written
 - [ ] Audit findings logged
 - [ ] All findings resolved or deferred to 1.x
 
@@ -121,6 +121,6 @@ Feature freeze. Quality focus.
 - [ ] All 0.9.x findings resolved
 - [ ] Final API freeze
 - [ ] Final benchmarks captured
-- [ ] `.dev/release/v1.0.0.md` written
+- [ ] `docs/release/v1.0.0.md` written
 - [ ] Tag `v1.0.0` on main
 - [ ] Publish to crates.io

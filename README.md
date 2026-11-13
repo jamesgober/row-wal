@@ -17,7 +17,7 @@
 
 ## Status
 
-**Active development.** Scaffolded and on the path to 1.0. See [.dev/ROADMAP.md](.dev/ROADMAP.md) for milestone tracking.
+**Active development.** Scaffolded and on the path to 1.0. See [dev/ROADMAP.md](dev/ROADMAP.md) for milestone tracking.
 
 The public API is not yet stable. Pin specific versions; expect changes pre-1.0.
 

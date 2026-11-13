@@ -7,7 +7,7 @@
 //! # Status
 //!
 //! Early scaffolding. Public API not yet defined. See [the repository](https://github.com/jamesgober/row-wal)
-//! and .dev/ROADMAP.md for the milestone plan.
+//! and dev/ROADMAP.md for the milestone plan.
 //!
 //! # License
 //!
